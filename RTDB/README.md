@@ -2,8 +2,8 @@
 
 RTDB 是一个 Java 实现的简单的数据库，做这个项目主要是想加强对数据库原理的理解，主要参考 MySQL 数据库的设计原理，实现数据存储、事务管理、日志记录、MVCC、索引检索等，RTDB 分为后端和前端（客户端），前后端通过 socket 进行交互。
 
-工具库： JUnit、Guava、Gson、Commons Codec、Commons CLI
-主要实现功能：
+## 工具库： JUnit、Guava、Gson、Commons Codec、Commons CLI
+## 主要实现功能：
 - 实现事务状态，并通过接口查询事务状态；
 - 实现基于 B+树的聚簇索引，支持基于索引查找数据。
 - 实现对字段结构和表结构的管理。实现 SQL 语句解析，并根据语句操作表。
